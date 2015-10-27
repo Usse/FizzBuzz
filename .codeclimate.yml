@@ -1,5 +1,13 @@
-languages:
-   JavaScript: true
+engines:
+  eslint:
+    enabled: true
+  csslint:
+    enabled: true
+ratings:
+  paths:
+  - "**.js"
+  - "**.jsx"
+  - "**.css"
 exclude_paths:
 - node_modules/**/*
 - hello/bundle.js
